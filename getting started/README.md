@@ -21,3 +21,7 @@ Explained the proxies from vuejs applications, hes turn most easyer the data man
 ## 6. Methods
 
 Explained the vue methods object, he we permit encapsule the complex functions or rules of application, removing this rules from the template of application.
+
+## 7. Directives
+
+Explained the vue directives ilike "v-cloak" to hide the unloaded elements in slow internet connections.
