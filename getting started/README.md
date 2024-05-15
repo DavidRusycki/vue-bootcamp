@@ -17,3 +17,7 @@ Explain how to create a dual instance of vue js application on the same page. Th
 ## 5. Acessing instance data
 
 Explained the proxies from vuejs applications, hes turn most easyer the data manipulation from the components.
+
+## 6. Methods
+
+Explained the vue methods object, he we permit encapsule the complex functions or rules of application, removing this rules from the template of application.
