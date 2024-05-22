@@ -25,3 +25,7 @@ Explained the vue methods object, he we permit encapsule the complex functions o
 ## 7. Directives
 
 Explained the vue directives ilike "v-cloak" to hide the unloaded elements in slow internet connections.
+
+## 8. Two-way-data-binding
+
+Explained the v-model directive funcionality, and how to use this to load values from data em atributes from components. Including the reactivity behavior.

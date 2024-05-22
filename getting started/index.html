@@ -9,6 +9,12 @@
 <body>
   <div id="app" v-cloak>
     <p>Hey {{ fullName() }}!</p>
+    <hr />
+    <label>First Name</label>
+    <input type="text" v-model="firstName">
+
+    <label>Last Name</label>
+    <input type="text" v-model="lastName">
   </div>
 
   <div id="footer">
