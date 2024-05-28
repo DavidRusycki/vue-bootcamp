@@ -29,3 +29,7 @@ Explained the vue directives ilike "v-cloak" to hide the unloaded elements in sl
 ## 8. Two-way-data-binding
 
 Explained the v-model directive funcionality, and how to use this to load values from data em atributes from components. Including the reactivity behavior.
+
+## 9. Binding Atributes
+
+Explained how to manipulate a atributes from componente with directives, like "v-bind:href" or :href.
