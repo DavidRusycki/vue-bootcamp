@@ -33,3 +33,7 @@ Explained the v-model directive funcionality, and how to use this to load values
 ## 9. Binding Atributes
 
 Explained how to manipulate a atributes from componente with directives, like "v-bind:href" or :href.
+
+## 10. Outputting raw HTML
+
+Explain more do CSS, Cross Site Scripting. And explain directive "v-html".
