@@ -41,3 +41,7 @@ Explain more do CSS, Cross Site Scripting. And explain directive "v-html".
 ## 11. Events
 
 Explain more from events on VueJs, to add interactions into application. @click, @input.
+
+## 12. Passing data on events
+
+Explain to use a $event object and pass parameters on @click="function('test', $event)". And explain to event.preventDefault();
