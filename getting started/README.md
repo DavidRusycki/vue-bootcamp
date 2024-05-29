@@ -37,3 +37,7 @@ Explained how to manipulate a atributes from componente with directives, like "v
 ## 10. Outputting raw HTML
 
 Explain more do CSS, Cross Site Scripting. And explain directive "v-html".
+
+## 11. Events
+
+Explain more from events on VueJs, to add interactions into application. @click, @input.

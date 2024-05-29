@@ -10,12 +10,17 @@
   <div id="app" v-cloak>
     <p>Hey {{ fullName() }}!</p>
     <a :href="url" target="_blank">Google</a>
+    <p v-html="raw_url"></p>
+    <p>{{ age }}</p>
     <hr />
     <label>First Name</label>
     <input type="text" v-model="firstName">
 
     <label>Last Name</label>
-    <input type="text" v-model="lastName">
+    <input type="text" :value="lastName" @input="updateLastName">
+
+    <button type="button" @click="increment()">Increment</button>
+    <button type="button" @click="this.age--">Decrease</button>
   </div>
 
   <div id="footer">
