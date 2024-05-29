@@ -45,3 +45,7 @@ Explain more from events on VueJs, to add interactions into application. @click,
 ## 12. Passing data on events
 
 Explain to use a $event object and pass parameters on @click="function('test', $event)". And explain to event.preventDefault();
+
+## 13. Event modifiers
+
+Explain to use a @click.prevent to hide a event.preventDefault() from method.
