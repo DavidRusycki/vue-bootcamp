@@ -57,3 +57,7 @@ Explain to use a modifiers with events. Like a @click.alt="test", someone call a
 ## 15. v-model Modifiers
 
 Explain how to use a modifiers on v-model. Lika v-model.lazy.trim or v-model.number;
+
+## 16. Computed Properties
+
+Explanation of the functionality and advantages of using computed properties. When we have, for example, a functionality that uses more than one property to return some value, as in our case the full name. We must avoid using a method to return the value of the full name. Because it is always called when there is a change in the model. If we don't change any property related to the name, we don't need to call this method. That's where computed properties come in. They only allow updating the full name when one of the properties linked to the name is modified.
