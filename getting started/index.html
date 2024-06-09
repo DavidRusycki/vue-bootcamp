@@ -14,13 +14,16 @@
     <p>{{ age }}</p>
     <hr />
     <label>First Name</label>
-    <input type="text" v-model="firstName">
+    <input type="text" v-model.lazy.trim="firstName">
 
     <label>Middle Name</label>
     <input type="text" @keyUp.enter="updateMiddleName">
 
     <label>Last Name</label>
     <input type="text" :value="lastName" @input.prevent="updateLastName('Last name message!', $event)">
+
+    <label>Age:</label>
+    <input type="number" v-model.number="age">
 
     <button type="button" @click.alt="increment()">Increment</button>
     <button type="button" @click="this.age--">Decrease</button>

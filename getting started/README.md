@@ -53,3 +53,7 @@ Explain to use a @click.prevent to hide a event.preventDefault() from method.
 ## 14. Keyboard Events and Modifiers
 
 Explain to use a modifiers with events. Like a @click.alt="test", someone call a test function if alt key is pressed. @keyUp.enter etc.
+
+## 15. v-model Modifiers
+
+Explain how to use a modifiers on v-model. Lika v-model.lazy.trim or v-model.number;
