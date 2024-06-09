@@ -65,3 +65,7 @@ Explanation of the functionality and advantages of using computed properties. Wh
 ## 17. Watchers
 
 Explains about watchers, they allow us to perform other functions when there are updates to data property values ​​or computed properties. They can also be asynchronous. They are not used as much as data or computed properties.
+
+## 18. Binding Classes
+
+Explains about applying style classes from model data and information. Using `:class` it is possible to define an object with the classes to be added. Like: `{ purple:isPurple }` the purple property varies and defines whether or not the purple class is in the element in question. It is possible to place the object within computed properties, thus improving performance. It is also possible to define an array with data and object properties, to obtain two distinct operations, that is, from a property and a computed property. Like: `[selectedColor, circle_classes_computed]`
